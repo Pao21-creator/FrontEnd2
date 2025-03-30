@@ -1,0 +1,92 @@
+/* Contenedor del selector */
+.selector-containerAño {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 20px 0;
+  font-family: Arial, sans-serif;
+  color: #7ee1e8; /* Color de texto genérico */
+}
+
+/* Etiqueta del selector */
+.selector-containerAño label {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 8px;
+  color: #7bdae1; /* Color del texto genérico */
+}
+
+/* Estilo del select */
+#Años-options {
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ccc; /* Borde genérico */
+  border-radius: 5px;
+  width: 200px;
+  outline: none;
+  background-color: #f9f9f9; /* Fondo claro genérico */
+  transition: all 0.3s ease;
+}
+
+/* Efecto cuando el select tiene foco */
+#Años-options:focus {
+  border-color: #007bff; /* Borde azul en foco */
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Sombra azul en foco */
+}
+
+/* Estilo para las opciones del selector */
+#Años-options option {
+  padding: 8px;
+  font-size: 16px;
+  background-color: #eaf7f3; /* Fondo suave para las opciones */
+}
+
+/* Mejorando la experiencia del selector */
+#Años-options option:hover {
+  background-color: #a5d6a7; /* Fondo verde claro al pasar el mouse */
+}
+
+/*_____________________________________________________________________*/
+
+/* Estilos específicos para Ndvi */
+.selector-containerAño.Ndvi {
+  color: #333; /* Color de texto para Ndvi */
+}
+
+.selector-containerAño.Ndvi label {
+  color: #39f7b4; /* Color del texto más oscuro para Ndvi */
+}
+
+#Años-options.Ndvi {
+  border-color: #4CAF50; /* Borde verde claro para Ndvi */
+  background-color: #f5f5f5; /* Fondo blanco para Ndvi */
+}
+
+#Años-options.Ndvi:focus {
+  border-color: #4CAF50; /* Verde más brillante en foco */
+  box-shadow: 0 0 5px rgba(76, 175, 80, 0.3); /* Sombra verde para Ndvi */
+}
+
+#Años-options.Ndvi option {
+  background-color: #eaf7f3; /* Fondo suave para las opciones de Ndvi */
+}
+
+/*________________________________________________________________________*/
+
+#Años-options.Nieve {
+  border-color: #00bcd4; /* Borde azul claro para Nieve */
+  background-color: #f5f5f5; /* Fondo blanco para Nieve */
+}
+
+#Años-options.Nieve:focus {
+  border-color: #00bcd4; /* Azul brillante en foco */
+  box-shadow: 0 0 5px rgba(0, 188, 212, 0.3); /* Sombra azul para Nieve */
+}
+
+#Años-options.Nieve option {
+  background-color: #eaf7f3; /* Fondo suave para las opciones de Nieve */
+}
+
+#Años-options.Nieve option:hover {
+  background-color: #80deea; /* Fondo azul claro al pasar el mouse */
+}

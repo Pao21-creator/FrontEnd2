@@ -1,0 +1,105 @@
+/* Estilos comunes */
+.text-container {
+  margin-bottom: 10px;
+  font-family: 'Helvetica Neue', sans-serif; /* Tipografía moderna */
+  color: #f1f1f1; /* Blanco suave para el texto */
+  font-size: 0.85em; /* Tamaño de fuente más pequeño */
+  padding: 18px;
+  border-radius: 12px; /* Bordes más suaves */
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2); /* Sombra más intensa para darle más profundidad */
+  background: #333333; /* Fondo oscuro con un toque elegante */
+}
+
+
+/* Estilo para los enlaces */
+.text-container a {
+  color: #4dcba1; /* Verde claro */
+  font-weight: 500; /* Peso moderado */
+  text-decoration: none;
+  transition: color 0.3s ease, transform 0.3s ease; /* Transición suave para cambios de color */
+}
+
+
+/* Estilo para cuando el enlace está activo */
+.text-container a:active {
+  color: #02877f; /* Color de enlace más intenso al hacer clic */
+}
+
+/*#############################################################*/
+
+/* Estilo específico para NDVI */
+.text-container.Ndvi {
+  background-color: rgba(0, 0, 0, 0.5); /* Fondo oscuro con transparencia */
+  border-radius: 15px; /* Bordes redondeados */
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); /* Sombra con más profundidad */
+}
+
+
+.Ndvi .container {
+  background-color: #d1e7d1; /* Fondo verde claro */
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra ligera */
+}
+
+/* Estilo para el título h2 */
+.text-container.Ndvi h2 {
+  font-size: 1.3em; /* Reducir el tamaño del título */
+  font-weight: 550; /* Peso moderado */
+  color: #ffffff; /* Blanco para el título */
+  margin-bottom: 5px;
+  text-align: center; /* Alineación izquierda */
+  letter-spacing: 1px; /* Espaciado de letras para un toque más estilizado */
+}
+
+/* Estilo para los párrafos p */
+.text-container.Ndvi p {
+  font-size: 0.98em; /* Reducir tamaño de los párrafos */
+  line-height: 1.15; /* Espaciado entre líneas más ajustado */
+  color: #dcdcdc; /* Gris claro para los párrafos */
+  letter-spacing: 0.5px; /* Espaciado de letras */
+  text-align: justify;
+  transition: color 0.3s ease; /* Transición suave de color */
+}
+
+
+
+/*#############################################################*/
+
+/* Estilo específico para Nieve */
+
+.text-container.Nieve {
+  background-color: rgba(0, 0, 0, 0.5); /* Fondo oscuro con transparencia */
+  border-radius: 15px; /* Bordes redondeados */
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); /* Sombra con más profundidad */
+}
+
+/* Estilo para el título h2 */
+.text-container.Nieve h2 {
+  font-size: 1.3em; /* Reducir el tamaño del título */
+  font-weight: 600; /* Peso moderado */
+  color: #ffffff; /* Blanco para el título */
+  margin-bottom: 10px;
+  text-align: center; /* Alineación izquierda */
+  letter-spacing: 1px; /* Espaciado de letras para un toque más estilizado */
+}
+
+/* Estilo para los párrafos p */
+.text-container.Nieve p {
+  font-size: 1.05em; /* Reducir tamaño de los párrafos */
+  line-height: 1.15; /* Espaciado entre líneas más ajustado */
+  color: #dcdcdc; /* Gris claro para los párrafos */
+  letter-spacing: 0.5px; /* Espaciado de letras */
+  text-align: justify;
+  transition: color 0.3s ease; /* Transición suave de color */
+}
+
+
+
+.text-container.Nieve .container {
+  background-color: #cbfefe; /* Fondo claro para nieve */
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
